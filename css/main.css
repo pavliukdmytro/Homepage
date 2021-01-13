@@ -1,0 +1,32 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+    margin: 30px auto;
+    padding: .5rem 1rem 0;
+    max-width: 1344px;
+}
+.title{
+    margin-top: 0px;
+}
+.svg-sprite{
+    display: none;
+}
+.instagram-link, .svg-icon{
+    margin-right: 10px;
+}
+.svg-icon{
+    width: 20px;
+    height: 20px;
+}
+@media (min-width: 1024px) {
+    .main{
+        grid-template-columns: 2fr 1.5fr;
+    }
+    .aside{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+}
