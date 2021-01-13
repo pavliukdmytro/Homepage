@@ -9,7 +9,7 @@ deploy:
     skip_cleanup: true
     access_key_id: $ACCESS_KEY_ID
     secret_access_key: $SECRET_ACCESS_KEY
-    bucket: "dimapavliuk.com-staging"
+    bucket: 'dimapavliuk.com-staging'
     region: eu-west-3
     acl: public_read
     on:
@@ -18,7 +18,7 @@ deploy:
     skip_cleanup: true
     access_key_id: $ACCESS_KEY_ID
     secret_access_key: $SECRET_ACCESS_KEY
-    bucket: dimapavliuk.com-production
+    bucket: 'dimapavliuk.com-production'
     region: eu-west-3
     acl: public_read
     on:
