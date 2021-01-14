@@ -1,6 +1,6 @@
 # Homepage
 My very own personal website. Basically this is just a résumé.
-
+Hocus-pocus!
 In my opinion this resume could have been created for Billie Eilish.
 
 [example](https://pavliukdmytro.github.io/Homepage/ "homepage")  
