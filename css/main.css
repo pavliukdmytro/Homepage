@@ -150,3 +150,11 @@
 }
 
 /** end butterfly **/
+
+.animation-of-balls{
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    /*background-color: rgba(20, 20, 20, 1);*/
+}
